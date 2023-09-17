@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="304a125b-cf5a-4fbf-b437-f7f763abab7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-api/src/main/java/com/dylan/rbac/api/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-api/src/main/java/com/dylan/rbac/api/auth/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/constant/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/enums/BaseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/enums/ErrorBaseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/exception/AbstractException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/function/Action0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/function/Action1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/function/Action2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/function/Func0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/function/Func1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/function/Func2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/log/Loggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/mapper/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/model/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/model/ModelBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/serviceImpl/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/test/ErrorBaseEnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/util/IdGeneratorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/util/JWTUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common/util/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-dao/src/main/resources/mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-dao/src/main/resources/rbac_system.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-data/src/main/java/com/dylan/rbac/data/enums/AccessErrorEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-data/src/main/java/com/dylan/rbac/data/enums/GenderEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-server/src/main/java/com/dylan/rbac/server/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-server/src/main/java/com/dylan/rbac/server/controller/auth/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-server/src/main/java/com/dylan/rbac/server/controller/sys/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-server/src/main/java/com/dylan/rbac/server/service/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-server/src/main/java/com/dylan/rbac/server/service/auth/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-server/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VSt5mjOsArsK7iKhnjozgfiZlp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "/Users/dylanlai/Desktop/developer/myprojects/project01-rbac-system/rbac/rbac-data/src/main/java/com/dylan/rbac/data/model",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rbac-data/src/main/java/com/dylan/rbac/data/model" />
+      <recent name="$PROJECT_DIR$/rbac-dao/src/main/resources" />
+      <recent name="$PROJECT_DIR$/rbac-common/src/main/java/com/dylan/rbac/common" />
+      <recent name="$PROJECT_DIR$/rbac-data/src/main/java/com/dylan/rbac/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rbac-dao/src/main/java/com/dylan/rbac/dao/xml/auth" />
+      <recent name="$PROJECT_DIR$/rbac-dao/src/main/java/com/dylan/rbac/dao/xml/sys" />
+      <recent name="$PROJECT_DIR$/rbac-dao/src/main/java/com/dylan/rbac/dao/xml" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dylan.rbac.server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dylan.rbac.data.entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RbacServerApplication">
+    <configuration name="ErrorBaseEnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dylan.rbac.common.test.ErrorBaseEnumTest" />
+      <module name="rbac-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dylan.rbac.common.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdGeneratorUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dylan.rbac.common.util.IdGeneratorUtil" />
+      <module name="rbac-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dylan.rbac.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rbac-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dylan.rbac.common.RbacCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacDaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rbac-dao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dylan.rbac.dao.RbacDaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rbac-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dylan.rbac.data.RbacDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rbac-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dylan.rbac.server.RbacServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ErrorBaseEnumTest" />
+        <item itemvalue="Application.IdGeneratorUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="304a125b-cf5a-4fbf-b437-f7f763abab7c" name="Changes" comment="" />
+      <created>1694841130516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694841130516</updated>
+      <workItem from="1694841131849" duration="27953000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/rbac-api" />
+      <path value="$PROJECT_DIR$/rbac-common" />
+      <path value="$PROJECT_DIR$/rbac-data" />
+      <path value="$PROJECT_DIR$/rbac-dao" />
+      <path value="$PROJECT_DIR$/rbac-server" />
+    </ignored-roots>
+  </component>
+</project>
