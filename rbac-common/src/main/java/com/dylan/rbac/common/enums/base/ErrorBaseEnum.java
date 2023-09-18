@@ -1,4 +1,4 @@
-package com.dylan.rbac.common.enums;
+package com.dylan.rbac.common.enums.base;
 
 /**
  * 错误枚举类基接口，错误枚举类都要实现此接口

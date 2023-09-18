@@ -1,6 +1,6 @@
-package com.dylan.rbac.data.enums;
+package com.dylan.rbac.common.enums;
 
-import com.dylan.rbac.common.enums.BaseEnum;
+import com.dylan.rbac.common.enums.base.BaseEnum;
 
 /**
  * 性别枚举类

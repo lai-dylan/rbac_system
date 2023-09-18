@@ -1,6 +1,6 @@
 package com.dylan.rbac.common.test;
 
-import com.dylan.rbac.common.enums.ErrorBaseEnum;
+import com.dylan.rbac.common.enums.base.ErrorBaseEnum;
 
 public class ErrorBaseEnumTest implements ErrorBaseEnum {
     @Override

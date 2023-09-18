@@ -2,12 +2,15 @@ package com.dylan.rbac.common;
 
 
 import com.dylan.rbac.common.constant.ResultCode;
+import com.dylan.rbac.common.enums.base.ErrorBaseEnum;
+import com.dylan.rbac.common.util.I18nUtil;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.io.Serializable;
+import java.util.Locale;
 
 @Setter
 @Getter
@@ -22,14 +25,10 @@ public class Result<T> implements Serializable {
     private T data;
 
     /**
-     * 成功[ (data), (msg), (msg, data) ]
+     * 成功[ (data), (msg, data) ]
      */
     public static <T> Result<T> success(T data){
         return success(ResultCode.SUCCESS, null, data);
-    }
-
-    public static <T> Result<T> success(String msg){
-        return success(ResultCode.SUCCESS, msg, null);
     }
 
     public static <T> Result<T> success(String msg, T data){
@@ -53,6 +52,13 @@ public class Result<T> implements Serializable {
 
     public static <T> Result<T> error(int code, String msg, T data){
         return new Result<>(code, msg, data);
+    }
+
+    /**
+     * 根据Locale生成特定的code和msg
+     */
+    public static <T> Result<T> error(ErrorBaseEnum errorBaseEnum, Locale locale){
+        return error(errorBaseEnum.code(), I18nUtil.getMessage(errorBaseEnum, locale));
     }
 
 }
